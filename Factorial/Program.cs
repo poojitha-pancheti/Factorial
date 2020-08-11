@@ -10,6 +10,7 @@ namespace Factorial
                 return 1;
             return n * factorial(n - 1);
         }
+
         static void Main(string[] args)
         {
             int n;
